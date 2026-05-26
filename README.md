@@ -4,7 +4,7 @@ A premium front-end showcase inspired by the CRED ecosystem. Built using **React
 
 ---
 
-## 🛠️ Quick Installation Guide
+## Quick Installation Guide
 
 - **Step 1: Get Dependencies**
   Run `npm install` to get all core react dependencies.
