@@ -26,7 +26,6 @@ export default function Features() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Calculate parallax translation offsets dynamically on scroll context mapping
   const translateY = Math.max(-40, Math.min(40, (scrollProgress - 0.5) * -120));
   const scale = Math.max(0.96, Math.min(1.04, 1 + (scrollProgress - 0.5) * 0.1));
 
@@ -45,7 +44,6 @@ export default function Features() {
         />
       </div>
 
-      {/* 👑 Added Content Section Exactly Replicating CRED's Design */}
       <div className="w-full max-w-5xl mx-auto text-center mt-12 md:mt-16 z-10 space-y-6">
         
         {/* Main Serif Display Title Headlines */}
