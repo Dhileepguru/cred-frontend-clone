@@ -35,15 +35,31 @@ export default function Features() {
       ref={sectionRef}
       className="relative min-h-[110vh] bg-black w-full flex flex-col items-center justify-center px-6 md:px-16 py-24 overflow-hidden select-none"
     >
-          {/* Core Visual Asset Component Importer Wrapper Node */}
-          <div className="relative z-10 w-half h-auto flex items-center justify-center">
-            <img 
-              src={featureImg1} 
-              alt="CRED Product Mobile UI Experience Showcase" 
-              className="w-full h-full object-contain select-none pointer-events-none drop-shadow-[0_25px_50px_rgba(0,0,0,0.85)]"
-              loading="eager"
-            />
-          </div>
+      {/* Core Visual Asset Component Importer Wrapper Node */}
+      <div className="relative z-10 w-1/2 h-auto flex items-center justify-center">
+        <img 
+          src={featureImg1} 
+          alt="CRED Product Mobile UI Experience Showcase" 
+          className="w-full h-full object-contain select-none pointer-events-none drop-shadow-[0_25px_50px_rgba(0,0,0,0.85)]"
+          loading="eager"
+        />
+      </div>
+
+      {/* 👑 Added Content Section Exactly Replicating CRED's Design */}
+      <div className="w-full max-w-5xl mx-auto text-center mt-12 md:mt-16 z-10 space-y-6">
+        
+        {/* Main Serif Display Title Headlines */}
+        <h1 className="text-[96px] w-full md:text-[68px] font-serif font-bold tracking-tight text-white leading-tight lowercase">
+          all that you deserve. <br /> and some more.
+        </h1>
+
+        {/* Brand Descriptive Paragraph Notes */}
+        <p className="text-zinc-400 text-xs md:text-[16px] max-w-3xl mx-auto tracking-wide font-normal leading-relaxed font-sans opacity-90 pt-2">
+          if you're a CRED member, you're already a step ahead. everyone
+          <br/>experience you unlock takes you higher up the pedestal.
+        </p>
+
+      </div>
     </section>
   );
 }

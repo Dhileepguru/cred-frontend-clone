@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Trust from './components/Trust';
 import Navbar from './components/Navbar';
 import Features from './components/Features';
+import CreditCardSection from './components/CreditCardSection';
 
 export default function App() {
   const qrCodeUrl = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://cred.club&color=000000";
@@ -13,6 +14,7 @@ export default function App() {
       <Hero />
       <Trust />
       <Features />
+      <CreditCardSection/>
 
       {/* 👑 🎯 THE GLOBAL FIXED APPS QR CARD ENGINE */}
       {/* This layer sits perfectly on top of all scrolling sections globally */}
