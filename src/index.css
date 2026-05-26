@@ -2,21 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Inter 900 (Black) is fully embedded into the engine stack rules */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght=0,400..900;1,400..900&family=Inter:wght@400;500;700;900&display=swap');
+
 @layer base {
-  body {
+  html, body {
     background-color: #000000 !important;
     color: #ffffff;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
   }
 }
 
-.neopop-shadow-blue {
-  box-shadow: 6px 6px 0px 0px #3d5afe;
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif !important;
 }
-.neopop-shadow-green {
-  box-shadow: 6px 6px 0px 0px #00e676;
-}
-.neopop-shadow-white {
-  box-shadow: 6px 6px 0px 0px #ffffff;
+
+.font-sans {
+  font-family: 'Inter', sans-serif !important;
 }
