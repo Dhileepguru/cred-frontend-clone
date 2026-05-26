@@ -1,0 +1,46 @@
+/* Google Fonts Import Layer */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght=0,400..900;1,400..900&family=Inter:wght@400;700;900&display=swap');
+
+/* Base Styles Configuration Override */
+html {
+  scroll-behavior: smooth;
+  background-color: #000000 !important;
+}
+
+body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  font-family: 'Inter', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Serif Typography Setup */
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif !important;
+}
+
+/* Hardcoded Premium NeoPOP 3D Shadows */
+.neopop-shadow-white {
+  box-shadow: 6px 6px 0px 0px #ffffff !important;
+}
+.neopop-shadow-blue {
+  box-shadow: 6px 6px 0px 0px #3d5afe !important;
+}
+.neopop-shadow-green {
+  box-shadow: 6px 6px 0px 0px #00e676 !important;
+}
+
+/* 🚀 3D Moving Pillars Keyframe Motion Engine */
+@keyframes pillarMove {
+  0% { transform: translateY(0px) rotate(-12deg) scaleY(1); opacity: 0.15; }
+  50% { transform: translateY(-40px) rotate(-12deg) scaleY(1.06); opacity: 0.35; filter: blur(3px); }
+  100% { transform: translateY(0px) rotate(-12deg) scaleY(1); opacity: 0.15; }
+}
+
+.animated-pillar-1 { animation: pillarMove 7s infinite ease-in-out; }
+.animated-pillar-2 { animation: pillarMove 10s infinite ease-in-out; animation-delay: 1.5s; }
+.animated-pillar-3 { animation: pillarMove 8s infinite ease-in-out; animation-delay: 3s; }
+.animated-pillar-4 { animation: pillarMove 12s infinite ease-in-out; animation-delay: 0.5s; }
+.animated-pillar-5 { animation: pillarMove 9s infinite ease-in-out; animation-delay: 4.5s; }
