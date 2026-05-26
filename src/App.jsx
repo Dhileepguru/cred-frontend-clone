@@ -6,6 +6,9 @@ import Features from './components/Features';
 import CreditCardSection from './components/CreditCardSection';
 import Footer from './components/Footer';
 import Ratings from './components/Ratings';
+import UpiPayments from './components/UpiPayments';
+import BrandShowcase from './components/BrandShowcase';
+import Security from './components/Security';
 
 export default function App() {
   const qrCodeUrl = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://cred.club&color=000000";
@@ -17,7 +20,10 @@ export default function App() {
       <Trust />
       <Features />
       <CreditCardSection/>
+      <UpiPayments/>
+      <BrandShowcase/>
       <Ratings/>
+      <Security/>
       <Footer/>
 
       {/* 👑 🎯 THE GLOBAL FIXED APPS QR CARD ENGINE */}
