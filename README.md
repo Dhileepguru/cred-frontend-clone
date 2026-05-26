@@ -1,16 +1,16 @@
-# React + Vite
+# 💳 CRED Landing Page Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium front-end showcase inspired by the CRED ecosystem. Built using **React + Vite** and styled natively via **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Quick Installation Guide
 
-## React Compiler
+- **Step 1: Get Dependencies**
+  Run `npm install` to get all core react dependencies.
+- **Step 2: Add Tailwind Packages**
+  Run `npm install -D tailwindcss postcss autoprefixer` followed by `npx tailwindcss init -p`.
+- **Step 3: Launch Local Dev Server**
+  Run `npm run dev` to see your project live inside the browser port.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
