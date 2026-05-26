@@ -15,7 +15,7 @@ export default function CreditCardSection() {
             do more with <br /> your credit cards
           </h2>
 
-          <p className="text-zinc-400 text-[11px] sm:text-xs md:text-[15px] lg:text-[16px] max-w-xl tracking-wide font-normal leading-relaxed font-sans opacity-90">
+          <p className="text-zinc-400 text-[15px] sm:text-xs md:text-[15px] lg:text-[16px] max-w-xl tracking-wide font-normal leading-relaxed font-sans opacity-90">
             manage your credit cards better and improve your credit score: 
             receive payment reminders, uncover hidden fees, get spending 
             insights, and discover ways to maximize card benefits.
